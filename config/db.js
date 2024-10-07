@@ -4,7 +4,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'product_management'
+    database: 'g4_database'
 });
 
 db.connect((err) => {
