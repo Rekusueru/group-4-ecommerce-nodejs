@@ -8,5 +8,6 @@ const order_Cntrl = require('../controllers/orderController');
 const payment_Cntrl = require('../controllers/paymentController');
 const user_Cntrl = require('../controllers/userController');
 
+router.get('', prod_Cntrl.index );
 
 module.exports = router;
