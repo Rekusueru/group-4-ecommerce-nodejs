@@ -30,7 +30,6 @@ app.use(session({
     secret: 'secret-key',
     cookie: {
         sameSite: 'strict',
-        maxAge: 60000 * 60,
     }
 }));
 

@@ -8,6 +8,12 @@ const order_Cntrl = require('../controllers/orderController');
 const payment_Cntrl = require('../controllers/paymentController');
 const user_Cntrl = require('../controllers/userController');
 
-router.get('', prod_Cntrl.index );
+// router.get('', (req, res) => {
+//     if (req.session.authorized) {
+//         res.render('profile', {username: req.session.user.username});
+//     }else {S
+//         res.render('login');
+//     }
+// } );
 
 module.exports = router;
